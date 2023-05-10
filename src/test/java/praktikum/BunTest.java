@@ -9,7 +9,7 @@ public class BunTest {
 
     @Before
     public void setUp(){
-        bun = new Bun("Флюоресцентная булка R2-D3", 988.3f);
+        bun = new Bun("Флюоресцентная булка R2-D3", 988f);
     }
 
     @Test
@@ -19,6 +19,6 @@ public class BunTest {
 
     @Test
     public void getPrice() {
-        Assert.assertEquals(988.3f, bun.getPrice(),0);
+        Assert.assertEquals(988f, bun.getPrice(),0);
     }
 }
